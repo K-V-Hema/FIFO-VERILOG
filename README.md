@@ -12,12 +12,12 @@ Features
 - Parameterized design for flexible reuse.
 
 Modules
-| Module Name | Description |
+
 | `fifo.v` | Main FIFO module implementing memory, control logic, and flags. 
 | `fifo_tb.v` | Testbench used to verify FIFO functionality. 
 
 Parameters
-| Parameter | Description | Default |
+
 | `DATA_WIDTH` | Width of each data word | 8 |
 | `DEPTH` | Number of words in FIFO | 16 |
 
@@ -35,7 +35,7 @@ How It Works
    - `empty` indicates FIFO is empty (no more reads possible).  
    - `count` provides the current number of stored elements.
 
-## 🧪 Simulation
+## Simulation
 Run the simulation using ModelSim / QuestaSim / Icarus Verilog:
 
 ```bash
